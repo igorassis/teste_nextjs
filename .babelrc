@@ -4,7 +4,13 @@
       "styled-components",
       { "ssr": true, "displayName": true, "preprocess": false }
     ],
-    ["transform-define", "./env-config.js"]
+    ["transform-define", {
+      "process.env.NODE_ENV": "production",
+      "typeof window": "object"
+    }]
+    // ["transform-define", 
+    //   {}
+    //   "./env-config.js"]
   ],
   "presets": ["next/babel"]
 }
