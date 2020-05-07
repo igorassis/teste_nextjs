@@ -13,10 +13,10 @@ const StyledLink = styled.a`
 export default function Navbar() {
   return (
     <StyledNav>
-      <Link href="/login" as={ process.env.ENV + '/login'}>
+      <Link href="/login">
         Login
       </Link>
-      <Link href="/about" as={ process.env.ENV + '/about'}>
+      <Link href="/about">
         About
       </Link>      
     </StyledNav>
