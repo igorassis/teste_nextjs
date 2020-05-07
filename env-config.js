@@ -1,4 +1,4 @@
 const prod = process.env.NODE_ENV === 'production';
 module.exports = {
-  'process.env.NODE_ENV': prod ? '/teste_nextjs' : ''
+  'process.env.ENV': prod ? '/teste_nextjs' : ''
 }
