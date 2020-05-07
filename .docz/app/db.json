@@ -1,0 +1,183 @@
+{
+  "config": {
+    "title": "Poc Central Next",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "version": "0.1.0",
+    "repository": null,
+    "native": false,
+    "themeConfig": {
+      "codemirrorTheme": "material",
+      "colors": {
+        "primary": "#f2f2f2",
+        "sidebarBg": "#f3f3f3"
+      },
+      "styles": {
+        "body": {
+          "fontFamily": "'Roboto', Helvetica Neue, Arial, sans",
+          "fontSize": 16
+        },
+        "h1": {
+          "fontFamily": "'Product Sans'"
+        },
+        "h2": {
+          "fontFamily": "'Product Sans'"
+        },
+        "h3": {
+          "fontFamily": "'Product Sans'"
+        },
+        "logo": {
+          "background": "red",
+          "alignItems": "center"
+        }
+      }
+    },
+    "separator": "-",
+    "htmlContext": {
+      "head": {
+        "links": [
+          {
+            "rel": "stylesheet",
+            "href": "https://fonts.googleapis.com/icon?family=Material+Icons"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "key": "README.md",
+      "value": {
+        "id": "04c6e90faac2675aa89e2176d2eec7d8",
+        "filepath": "README.md",
+        "fullpath": "/Users/igorpires/Documents/Development/FreteBras/poc-central-next/README.md",
+        "link": "",
+        "hidden": false,
+        "slug": "readme",
+        "route": "/readme",
+        "name": "Readme",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "getting-started",
+            "depth": 2,
+            "value": "Getting Started"
+          },
+          {
+            "slug": "learn-more",
+            "depth": 2,
+            "value": "Learn More"
+          },
+          {
+            "slug": "deploy-on-zeit-now",
+            "depth": 2,
+            "value": "Deploy on ZEIT Now"
+          }
+        ]
+      }
+    },
+    {
+      "key": "components/README.mdx",
+      "value": {
+        "name": "Fretebras",
+        "route": "/",
+        "id": "d32ebd91795505b67bfbd86c81ce9fed",
+        "filepath": "components/README.mdx",
+        "fullpath": "/Users/igorpires/Documents/Development/FreteBras/poc-central-next/components/README.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "components-readme",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "fretebras-design-system",
+            "depth": 1,
+            "value": "Fretebras Design System"
+          },
+          {
+            "slug": "dependencies",
+            "depth": 2,
+            "value": "Dependencies"
+          },
+          {
+            "slug": "usage",
+            "depth": 2,
+            "value": "Usage"
+          }
+        ]
+      }
+    },
+    {
+      "key": "components/atoms/Boxes/README.mdx",
+      "value": {
+        "name": "Boxes",
+        "menu": "Atoms",
+        "route": "/Atoms/Boxes",
+        "id": "a267216b265db12bac0230a081b3bdd7",
+        "filepath": "components/atoms/Boxes/README.mdx",
+        "fullpath": "/Users/igorpires/Documents/Development/FreteBras/poc-central-next/components/atoms/Boxes/README.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "components-atoms-boxes-readme",
+        "headings": [
+          {
+            "slug": "button",
+            "depth": 1,
+            "value": "Button"
+          },
+          {
+            "slug": "example-usage",
+            "depth": 2,
+            "value": "Example Usage"
+          }
+        ]
+      }
+    }
+  ],
+  "props": [
+    {
+      "key": "pages/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Home",
+          "methods": [],
+          "actualName": "Home"
+        }
+      ]
+    },
+    {
+      "key": "pages/login/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Login",
+          "methods": [],
+          "actualName": "Login"
+        }
+      ]
+    },
+    {
+      "key": "components/atoms/Boxes/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Boxes",
+          "methods": [],
+          "actualName": "Boxes"
+        }
+      ]
+    },
+    {
+      "key": "components/molecules/Navbar/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Navbar",
+          "methods": [],
+          "actualName": "Navbar"
+        }
+      ]
+    }
+  ]
+}
