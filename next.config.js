@@ -1,7 +1,7 @@
 const debug = process.env.NODE_ENV !== "production";
 module.exports = {
   env: {
-    ENV: !debug ? "/teste_nextjs/" : "",
+    ENV: !debug ? "/teste_nextjs" : "",
   },
   exportPathMap: function() {
     return {
