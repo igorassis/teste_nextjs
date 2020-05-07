@@ -13,12 +13,12 @@ const StyledLink = styled.a`
 export default function Navbar() {
   return (
     <StyledNav>
-      <StyledLink href="/login">
+      <Link href="/login" as={ process.env.BACKEND_URL + '/login'}>
         Login
-      </StyledLink>
-      <StyledLink href="/about">
+      </Link>
+      <Link href="/about" as={ process.env.BACKEND_URL + '/about'}>
         About
-      </StyledLink>      
+      </Link>      
     </StyledNav>
   );
 }
