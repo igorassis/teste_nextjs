@@ -9,7 +9,8 @@
     "cypress": "cypress open",
     "docz:dev": "docz dev",
     "docz:build": "docz build",
-    "docz:serve": "docz build && docz serve"
+    "docz:serve": "docz build && docz serve",
+    "staticBuild": "next build && next export"
   },
   "dependencies": {
     "@material-ui/core": "^4.9.11",
